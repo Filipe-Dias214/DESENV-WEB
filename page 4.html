@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+</head>
+<body>
+    <h1>Ache Um Amigo</h1>
+    <form action="/submit" method="post">
+      <div>
+        <label for="name">Nome:</label><br>
+        <input type="text" id="nme" name="nome" placeholder="digite seu nome" required><br><br>
+      </div>
+      <br>
+      <div>
+	<label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="digite seu email" required><br><br>
+      </div>
+      <br>
+      <div>
+	<label for="color"> Favorite color:</label><br>
+	<input type="color" id="color" name="color"><br><br>
+      </div>
+      <br>
+      <div>
+	<label>Genero:</label><br>
+	<input type="radio" id="Homem" name="genero" value="Homem">
+	<label for="Homem">Homem</label><br>
+	<input type="radio" id="Mulher" name="genero" value="Mulher">
+	<label for="Mulher">Mulher</label><br>
+      </div>
+      <br>
+      <div>
+    <label for="mensagem">Mensagem:</label><br>
+    <textarea id="mensagem" name="mensagem" rows="4" placeholder="fale um pouco sobre você" required></textarea>
+     </div>
+     <br>
+     <div>
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+     </div>
+</form>
+</body>
+</html>
+
